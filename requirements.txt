@@ -1,0 +1,12 @@
+# ══════════════════════════════════════════
+#  Python dependencies for SQLi Automation Tool
+# ══════════════════════════════════════════
+
+# HTTP requests library — core of all our HTTP communication
+requests>=2.28.0
+
+# HTML parser — used for analyzing response content
+beautifulsoup4>=4.11.0
+
+# SSL warning suppression — needed for lab environments
+urllib3>=1.26.0
